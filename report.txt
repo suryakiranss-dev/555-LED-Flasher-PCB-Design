@@ -1,0 +1,110 @@
+Info: Processing symbol 'BT1:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'C1:Capacitor_THT:CP_Radial_D5.0mm_P2.00mm'.
+Info: Processing symbol 'C2:Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm'.
+Info: Processing symbol 'D1:LED_THT:LED_D5.0mm'.
+Info: Processing symbol 'R1:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R2:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R3:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'U1:Package_DIP:DIP-8_W7.62mm'.
+Updated BT1 symbol association from  to /2261a6d9-0506-4fb0-aeac-03f3365a81ef.
+Updated BT1 fields.
+Updated BT1 sheetname to '/'.
+Updated BT1 sheetfile to 'mini_inverter.kicad_sch'.
+Add net /+9V rail.
+Connected BT1 pin 1 to /+9V rail.
+Add net GNDREF.
+Connected BT1 pin 2 to GNDREF.
+Updated BT1 unit metadata.
+Added C1 (footprint 'Capacitor_THT:CP_Radial_D5.0mm_P2.00mm').
+Changed REF** reference designator to C1.
+Changed C1 value from CP_Radial_D5.0mm_P2.00mm to 10uF.
+Updated C1 symbol association from  to /053bf72a-4e68-4aa0-855b-4b21669b232c.
+Updated C1 fields.
+Updated C1 sheetname to '/'.
+Updated C1 sheetfile to 'mini_inverter.kicad_sch'.
+Updated C1 footprint filters to 'C_*'.
+Add net Net-(U1-THRES).
+Connected C1 pin 1 to Net-(U1-THRES).
+Connected C1 pin 2 to GNDREF.
+Updated C1 unit metadata.
+Added C2 (footprint 'Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm').
+Changed REF** reference designator to C2.
+Changed C2 value from C_Disc_D3.0mm_W2.0mm_P2.50mm to 10nF.
+Updated C2 symbol association from  to /2b2a9b3f-f354-4f72-9e34-94e83e40649d.
+Updated C2 fields.
+Updated C2 sheetname to '/'.
+Updated C2 sheetfile to 'mini_inverter.kicad_sch'.
+Updated C2 footprint filters to 'C_*'.
+Connected C2 pin 2 to GNDREF.
+Add net Net-(U1-CONT).
+Connected C2 pin 1 to Net-(U1-CONT).
+Updated C2 unit metadata.
+Added D1 (footprint 'LED_THT:LED_D5.0mm').
+Changed REF** reference designator to D1.
+Changed D1 value from LED_D5.0mm to red LED.
+Updated D1 symbol association from  to /bf11dc6e-84f1-487f-86e1-34e2dfc1a1d3.
+Updated D1 fields.
+Updated D1 sheetname to '/'.
+Updated D1 sheetfile to 'mini_inverter.kicad_sch'.
+Updated D1 footprint filters to 'LED* LED_SMD:* LED_THT:*'.
+Add net Net-(D1-A).
+Connected D1 pin 2 to Net-(D1-A).
+Connected D1 pin 1 to GNDREF.
+Updated D1 unit metadata.
+Added R1 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R1.
+Changed R1 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 1k.
+Updated R1 symbol association from  to /bf03c659-50f6-4cb5-a2f3-75249b40717b.
+Updated R1 fields.
+Updated R1 sheetname to '/'.
+Updated R1 sheetfile to 'mini_inverter.kicad_sch'.
+Updated R1 footprint filters to 'R_*'.
+Connected R1 pin 2 to /+9V rail.
+Connected R1 pin 1 to /+9V rail.
+Updated R1 unit metadata.
+Added BT1 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical').
+Added R2 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R2.
+Changed R2 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 47k.
+Updated R2 symbol association from  to /3732e4b3-dfb2-4333-b056-70b1b9023f2d.
+Updated R2 fields.
+Updated R2 sheetname to '/'.
+Updated R2 sheetfile to 'mini_inverter.kicad_sch'.
+Updated R2 footprint filters to 'R_*'.
+Connected R2 pin 1 to /+9V rail.
+Connected R2 pin 2 to Net-(U1-THRES).
+Updated R2 unit metadata.
+Changed REF** reference designator to BT1.
+Added R3 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R3.
+Changed R3 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 330.
+Updated R3 symbol association from  to /47557e82-dfcd-495a-8e0a-e835331e46a9.
+Updated R3 fields.
+Updated R3 sheetname to '/'.
+Updated R3 sheetfile to 'mini_inverter.kicad_sch'.
+Updated R3 footprint filters to 'R_*'.
+Add net Net-(U1-OUT).
+Connected R3 pin 1 to Net-(U1-OUT).
+Connected R3 pin 2 to Net-(D1-A).
+Updated R3 unit metadata.
+Changed BT1 value from PinHeader_1x02_P2.54mm_Vertical to 9V.
+Added U1 (footprint 'Package_DIP:DIP-8_W7.62mm').
+Changed REF** reference designator to U1.
+Changed U1 value from DIP-8_W7.62mm to NE555P.
+Updated U1 symbol association from  to /68b8f7e0-bc1e-4e8f-a727-e72adc00467d.
+Updated U1 fields.
+Updated U1 sheetname to '/'.
+Updated U1 sheetfile to 'mini_inverter.kicad_sch'.
+Updated U1 footprint filters to 'DIP*W7.62mm*'.
+Connected U1 pin 5 to Net-(U1-CONT).
+Connected U1 pin 8 to /+9V rail.
+Connected U1 pin 3 to Net-(U1-OUT).
+Connected U1 pin 7 to /+9V rail.
+Connected U1 pin 4 to /+9V rail.
+Connected U1 pin 6 to Net-(U1-THRES).
+Connected U1 pin 1 to GNDREF.
+Connected U1 pin 2 to Net-(U1-THRES).
+Updated U1 unit metadata.
+
+
+Info: Total warnings: 0, errors: 0.
